@@ -1,0 +1,18 @@
+{
+    "preset": "laravel",
+    "ignore": {
+        "words": [
+            "api",
+            "filesystems",
+            "postcss"
+        ],
+        "paths": [
+            "bootstrap/cache",
+            "public",
+            "resources",
+            "storage",
+            "tests",
+            "vendor"
+        ]
+    }
+}

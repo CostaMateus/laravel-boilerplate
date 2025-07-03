@@ -1,0 +1,34 @@
+// Fonts
+@import url( "https://fonts.bunny.net/css?family=Nunito" );
+
+// OverlayScrollbars
+@import "overlayscrollbars/styles/overlayscrollbars.css";
+
+// iCheck
+@import "icheck-bootstrap/icheck-bootstrap.css";
+
+// Icons
+@import "icons";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "bootstrap/scss/bootstrap";
+@import "bs5";
+
+// AdminLTE
+@import "admin-lte/dist/css/adminlte.css";
+
+.live-region {
+    right: 0 !important;
+}
+
+.sidebar-wrapper .sidebar-menu .nav-item.menu-open > .nav-link {
+    color: var(--lte-sidebar-hover-color);
+    background-color: var(--lte-sidebar-hover-bg);
+}
+
+.spinner-border {
+    vertical-align: middle !important;
+}
