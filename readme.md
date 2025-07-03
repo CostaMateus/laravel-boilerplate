@@ -14,8 +14,7 @@ A comprehensive Laravel boilerplate project designed to kickstart your web appli
 
 ### Frontend Stack
 
-- **Multiple CSS Frameworks**:
-    - **Tailwind CSS** - Utility-first CSS framework
+- **CSS Framework**:
     - **Bootstrap 5.3** - Popular component-based framework
 
 - **JavaScript Libraries**:
@@ -182,12 +181,11 @@ npm run build             # Production build
 
 This boilerplate provides multiple frontend approaches:
 
-### 1. Tailwind CSS + Alpine.js
+### 1. Bootstrap + Alpine.js
 
-- Modern utility-first approach
+- Component-based styling with Bootstrap
 - Reactive components with Alpine.js
-- Minimal JavaScript footprint
-
+- Modern development experience
 
 ### 2. Bootstrap + jQuery
 
@@ -325,7 +323,7 @@ This boilerplate is perfect for:
 
 ## 🚀 Getting Started Tips
 
-1. **Choose Your Frontend**: Decide between Tailwind, Bootstrap, or AdminLTE based on your project needs
+1. **Choose Your Frontend**: Decide between Bootstrap or AdminLTE based on your project needs
 2. **Configure Authentication**: Laravel Breeze is pre-installed for quick auth setup
 3. **Set Up Testing**: Use the included Pest configuration for TDD
 4. **Code Quality**: Run `composer run test` regularly to maintain code quality
